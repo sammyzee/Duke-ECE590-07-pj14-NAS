@@ -20,21 +20,21 @@ Part3, without cutout and auto augmentation policy.
 
 ### Supported functions
 
-### cutout.py
+#### cutout.py
 Realize the cutout function to process images.
 Cited from https://github.com/uoguelph-mlrg/Cutout
 
-### CIFAR10Policy.py:
+#### CIFAR10Policy.py:
 Realize the function of auto augmentation policy for CIFAR10
 Cited from https://github.com/DeepVoltaire/AutoAugment/blob/master/autoaugment.py
 
-### operation.py:
+#### operation.py:
 Realize the basic operation: conv1x1-bn-relu, conv3x3-bn-relu, downsampling, global average
 
-### model.py 
+#### model.py 
 Realize the architecture of the cell we searched and construct the model in the paper, every stage has 3 cells and then downsampling
 
-### utils.py:
+#### utils.py:
 Realize a function
 Train(net, lr, decay, momentum, device, trainloader, testloader, epoch) to train the model.
 
