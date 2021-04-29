@@ -11,7 +11,7 @@ Part 1, for loading the NASBench-101;
 Part 2, realize three different search straties: random search, evolutionary algorithm and estimator-based search over selected search space;
 Part 3, plotting and obtain the architecture from dataset.
 Cited from https://github.com/googleresearch/nasbench
-### Model Train.ipynb
+#### Model Train.ipynb
 In this notebook, we run three kinds of dataprocessing, the model is the same
 Part1, auto augmentation policy with cutout;
 Part2, only cutout method;
